@@ -1,0 +1,7 @@
+f = open("C:\\Users\\ravip_kww02zt\\Python-Git\\File_input_output\\demo.txt","r")
+data = f.read()
+#line1 = f.readline()
+#print(line1)
+print(data)
+print(type(data))
+f.close()
